@@ -1,0 +1,3 @@
+    Yazılıma duyduğum ilgiyle başladığım bu yolculukta The Raven Language, ilk gerçek ölçekli projem oldu. Python öğrenirken kendi İngilizce pratiğim için yazmaya başladım; zamanla basit bir alıştırma programından çok daha fazlasına dönüştü. Benim için yazılım ve uygulama geliştirmek sürekli bir öğrenme ve gelişme süreci. Bu yüzden uygulamayı daha da iyileştirmek adına gelecek geri bildirimlere her zaman açığım.
+
+    Uygulamanın şu anki hâli, dil öğrenmenin temelini oluşturan kelime ezberine odaklanıyor. Ancak bu, planlarımın yalnızca başlangıcı. İlerleyen dönemlerde uygulamayı, dil öğrenme programlarında bulunmayan yenilikçi özelliklerle donatarak dil öğrenme sürecine farklı bir bakış açısı kazandırmayı amaçlıyorum.

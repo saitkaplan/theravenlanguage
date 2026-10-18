@@ -1,0 +1,5 @@
+    Kendim için İngilizce pratiği yapabilmek amacıyla başladığım bu uygulama projesi, zamanla farklı fikirlerin ortaya çıkmasıyla birlikte sadece bir alıştırma programından çok daha fazlası hâline geldi. Şu an hâlâ geliştirme aşamasında olan bu uygulamanın dil öğrenme sürecine önemli katkılarda bulunacağına inancım tam. Basit ve temel sürümünü sizinle paylaşmaktan mutluluk duyuyorum ve tam sürümünü en kısa sürede sizinle buluşturmayı hedefliyorum.
+
+    Fikirlerinizi, görüşlerinizi ve merak ettiklerinizi "Bana & Uygulamaya Dair" menüsündeki sosyal medya bağlantılarından bana iletebilirsiniz. Geri dönüşleriniz benim için değerli. Uygulamayı kullandığınız için teşekkür eder, dil öğrenme yolculuğunuzda başarılar dilerim.
+
+    Uygulama Versiyonu: 1.1.4.8
