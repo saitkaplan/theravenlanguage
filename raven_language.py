@@ -932,7 +932,7 @@ def settings_page():
         except Exception as e:
             print(f"An error occurred: {e}")
 
-    # Yazıtipini Değiştirdiğimiz Fonksiyon
+    # Yazı Tipini Değiştirdiğimiz Fonksiyon
     def font_select(value):
         global FONT
         if value == "Helvetica":
@@ -970,7 +970,7 @@ def settings_page():
     font_select_menu["menu"].config(fg=FONT_GROUND, bg=BACK_GROUND, font=(FONT, 15))
     font_select_menu.grid(column=1, row=1)
 
-    # Yazıtipi Rengini Değiştirdiğimiz Fonksiyon
+    # Yazı Tipi Rengini Değiştirdiğimiz Fonksiyon
     def font_ground_select(value):
         global FONT_GROUND
         if value == "Siyah":
@@ -1011,7 +1011,7 @@ def settings_page():
     font_ground_select_menu["menu"].config(fg=FONT_GROUND, bg=BACK_GROUND, font=(FONT, 15))
     font_ground_select_menu.grid(column=1, row=2)
 
-    # Arkaplan Rengini Değiştirdiğimiz Fonksiyon
+    # Arka Plan Rengini Değiştirdiğimiz Fonksiyon
     def back_ground_select(value):
         global BACK_GROUND
         if value == "Siyah":
@@ -1063,13 +1063,13 @@ def settings_page():
     settings_page_label = Label(text="Ayarlar", fg=FONT_GROUND, bg=BACK_GROUND, font=(FONT, 30, "bold"))
     settings_page_label.grid(column=0, row=0, columnspan=2, pady=10)
 
-    font_ground_select_label = Label(text="Yazıtipi Rengi:", fg=FONT_GROUND, bg=BACK_GROUND, font=(FONT, 20))
+    font_ground_select_label = Label(text="Yazı Tipi Rengi:", fg=FONT_GROUND, bg=BACK_GROUND, font=(FONT, 20))
     font_ground_select_label.grid(column=0, row=2, pady=2)
 
     back_ground_select_label = Label(text="Arka Plan Rengi:", fg=FONT_GROUND, bg=BACK_GROUND, font=(FONT, 20))
     back_ground_select_label.grid(column=0, row=3, pady=2)
 
-    font_select_label = Label(text="Yazıtipi:", fg=FONT_GROUND, bg=BACK_GROUND, font=(FONT, 20))
+    font_select_label = Label(text="Yazı Tipi:", fg=FONT_GROUND, bg=BACK_GROUND, font=(FONT, 20))
     font_select_label.grid(column=0, row=1, pady=2)
 
     return_button = Button(text=RETURN_BUTTON, fg=FONT_GROUND, bg=BACK_GROUND, font=(FONT, 17), width=16,
