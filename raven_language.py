@@ -475,7 +475,7 @@ def repo_page():
             w_edit_window.config(padx=30, pady=30, bg=BACK_GROUND)
             w_edit_window.resizable(False, False)
 
-            w_edit_title_label = Label(w_edit_window, text="Düzenlenleme Penceresi", fg=FONT_GROUND, bg=BACK_GROUND,
+            w_edit_title_label = Label(w_edit_window, text="Düzenleme Penceresi", fg=FONT_GROUND, bg=BACK_GROUND,
                                        font=(FONT, 30, "bold"))
             w_edit_title_label.grid(column=0, row=0, columnspan=2, pady=5)
 
@@ -511,7 +511,7 @@ def repo_page():
                 cleaned_str = ' '.join(stripped_str.split())
                 return cleaned_str
 
-            # Kelime Düzenlemelerinin Alındığı ve Kayıt Fonksiyonunun Çağırıldığı Fonksiyon
+            # Kelime Düzenlemelerinin Alındığı ve Kayıt Fonksiyonunun Çağrıldığı Fonksiyon
             def save_changes():
                 try:
                     row_num = int(w_edit_row.get())
@@ -724,7 +724,7 @@ def repo_page():
                 cleaned_str = ' '.join(stripped_str.split())
                 return cleaned_str
 
-            # Kalıp Cümle Düzenlemelerinin Alındığı ve Kayıt Fonksiyonunun Çağırıldığı Fonksiyon
+            # Kalıp Cümle Düzenlemelerinin Alındığı ve Kayıt Fonksiyonunun Çağrıldığı Fonksiyon
             def save_changes():
                 try:
                     row_num = int(m_edit_row.get())
